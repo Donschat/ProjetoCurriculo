@@ -4,7 +4,7 @@
 }
 body, html{
     height: 100%;
-    background-image: linear-gradient(#4b4b4b, #a32525) ;
+    background-color: #a32525 ;
 }
 .flex-container{
     display: flex;
@@ -47,7 +47,6 @@ header{
     margin-right: 5%;
     padding-top: 10%;
     width: 50vw;
-    position: fixed;
 }
 nav{
     text-align: center;
@@ -121,10 +120,6 @@ a:hover{
 .endereço{
     font-size: 15pt;
 }
-.icones-flex{
-    display: flex;
-    position: absolute;
-}
 .con{
     padding: 20px;
     width: 80px;
@@ -134,4 +129,9 @@ a:hover{
     align-items: center;
     padding: 15%;
     display: flex;
+}
+ol{
+    align-items: center;
+    display: flex;
+    padding-top: 10px;
 }
