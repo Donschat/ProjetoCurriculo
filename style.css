@@ -1,0 +1,137 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body, html{
+    height: 100%;
+    background-image: linear-gradient(#4b4b4b, #a32525) ;
+}
+.flex-container{
+    display: flex;
+}
+.foto{
+    width: 20vw;
+    height: 45vh;
+    border-radius: 30%;
+    border-style: ridge #a32525;
+    box-shadow: 4px 4px 4px #a32525;
+}
+.foto:hover{
+    transform: scale(1.1);
+    transition: .8s;
+}
+.titulo{
+    text-align: center;
+    color: #01050f;
+    font-family: 'Arial Narrow Bold', sans-serif;
+}
+header{
+    padding: 0px;
+}
+.bloco1{
+    text-align: center, justify;
+    padding: 20px;
+    background-color: #01050f;
+    background-image: linear-gradient(#4b4b4b, #01050f);
+    height: 100vh;
+    width: 20vw;
+    border: 5px  #a32525;
+    border-left: none;
+    border-bottom: none;
+    position: fixed;
+    box-shadow: 5px 5px 5px #a32525;
+}
+.bloco2{
+    padding-left: 0;
+    margin-left: 30%;
+    margin-right: 5%;
+    padding-top: 10%;
+    width: 50vw;
+    position: fixed;
+}
+nav{
+    text-align: center;
+}
+a:link{
+    font-size: 20px;
+    font-family: 'Arial Narrow Bold', sans-serif;
+    font-weight: 500;
+    text-decoration: none;
+    color: #8d7777;
+}
+a:visited{
+    color: #8d7777;
+}
+a:hover{
+    color: whitesmoke;
+    font-size: 1.2em;
+    transition: 1s;
+    background-color: #a32525;
+    border-radius: 5px;
+}
+.link ul{
+    line-height: 2em;
+    box-shadow: 10px 10px 10px #a32525;
+    border-radius: 30px;
+}
+.mapouter{
+    border: 2px solid #8d7777;
+    border-radius: 5px;
+    position: relative;
+    text-align: right;
+    max-height: 20px;
+    max-width: 20px;
+}
+.gmap_canvas{
+    overflow: hidden;
+    background: none;
+    max-height: 20px;
+    max-width: 20px;
+}
+.mapouter:hover {
+    transition: 1s;
+    position: relative;
+    border-radius: 5px;
+    text-align: right;
+    max-height: 300px;
+    max-width: 600px;
+}
+.gmap_canvas:hover {
+    transition: 1s;
+    overflow: hidden;
+    background: none !important;
+    max-height: 300px;
+    max-width: 600px;
+}
+.descr{
+    font-family: 'Arial Narrow Bold', sans-serif;
+    font-weight: 700;
+    color: #01050f;
+    font-size: 15pt;
+}
+.sociais{
+    text-align: justify;
+    padding: 5px 20px;
+    margin-bottom: 15px;
+}
+.sociais:hover{
+    size: 3em;
+    transition: 1s;
+}
+.endereço{
+    font-size: 15pt;
+}
+.icones-flex{
+    display: flex;
+    position: absolute;
+}
+.con{
+    padding: 20px;
+    width: 80px;
+    height: 80px;
+}
+.conhecimentos{
+    align-items: center;
+    padding: 15%;
+    display: flex;
+}
